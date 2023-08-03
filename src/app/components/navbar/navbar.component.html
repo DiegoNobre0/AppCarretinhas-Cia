@@ -1,0 +1,57 @@
+<mat-toolbar style="background: black;" id="nav">
+    <!-- NavBar mobile -->
+    <!-- <mat-accordion class="display-mobile-accordion">
+        <mat-expansion-panel
+         hideToggle
+         style="background: #fff;"
+         (opened)="panelOpenState = true"
+         (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title> -->
+                <!-- <div class="div-logo">
+                    <img class="img-logo" src="../../../assets/logo.png">
+                </div> -->
+            <!-- </mat-panel-title>
+            <mat-panel-description style="display: contents;">
+                <button mat-icon-button >
+                    <mat-icon>{{panelOpenState? "close" : "menu"}}</mat-icon>
+                </button>
+            </mat-panel-description>
+          </mat-expansion-panel-header >
+            <div style="display: grid;">
+                <button mat-button (click)="home()">
+                    <span class="span-toolbar">Página Inicial</span>
+                </button> 
+                <button mat-button (click)="adm()">
+                    <span *ngIf="loginLogout" class="span-toolbar">Menu Adiministrativo</span>
+                </button>                      
+                <button *ngIf="!loginLogout" mat-button (click)="openDialogLogin()">
+                    <span class="span-toolbar">Login</span>
+                </button>
+                <button *ngIf="loginLogout" mat-button (click)="logout()">
+                    <span class="span-toolbar">Logout</span>
+                </button>
+            </div>
+        </mat-expansion-panel>
+      </mat-accordion> -->
+
+    <!-- NavBar desktop -->
+    <div class="div-logo">
+        <img class="img-logo" src="../../../assets/logo/logo.png">
+    </div>
+    <span class="toolbar-spacer display-mobile-menu"></span>
+    <div class="display-mobile-menu">
+        <button mat-button >
+            <span class="span-toolbar">MODELOS</span>
+        </button>     
+        <button mat-button>
+            <span class="span-toolbar">ACESSÓRIOS</span>
+        </button>        
+        <button mat-button >
+            <span class="span-toolbar">ASSISTÊNCIA TÉCNICA</span>
+        </button>
+        <button  mat-button>
+            <span class="span-toolbar">QUEM SOMOS</span>
+        </button>
+    </div>
+</mat-toolbar>

@@ -1,0 +1,73 @@
+.div-logo{
+    width: 57%;
+}
+
+.img-logo{
+    height: 4rem;
+    width: 9rem;
+}
+
+
+.display-mobile-accordion{
+    display: none;
+    @media (max-width: 990px){
+        display: contents;
+    }
+}
+
+.toolbar-spacer {
+    flex : 1  1 auto;
+}
+
+.span-toolbar{
+    color: #f2be31;
+    font-size: 15px;
+    letter-spacing: 2px;
+    transition: all 0.8s ease-in-out;
+}
+
+.span-toolbar:hover {
+    color:#e7cc82;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 2);
+}
+
+.mat-toolbar{
+    transition: all 0.3s ease-out;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 9;
+    height: 6rem;
+    margin-top: -1rem;
+    @media (max-width: 990px){
+        display: block;
+        background:#fff;
+    }
+}
+
+
+::ng-deep .custom-dialog-container-login {
+    mat-dialog-container {
+      position: fixed;
+      display: block;
+      z-index: 11;
+      width: 30rem;
+      height: 25rem;
+      left: 36%;
+      top: 4%;
+      background-color: rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(3px);
+
+      @media (max-width: 990px){
+        position: fixed;
+        display: block;
+        z-index: 11;
+        width: 100%;
+        height: 35rem;
+        left: 10%;
+        top: 10%;
+        padding: 1rem 1rem 7rem 1rem;
+        }
+    }
+}

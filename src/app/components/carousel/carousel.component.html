@@ -1,0 +1,16 @@
+
+<div class="carousel-img">
+  <div
+  class="slide"
+  [ngStyle]="{ 'background-image': getCurrentSlideUrl() }"
+  >
+  </div>
+  
+  <div class="botoes-controle">
+    <button
+      *ngFor="let imagem of slides; index as i"
+      [class.ativo]="i === indexImagemAtiva"
+      (click)="pararTimer(); ativarImagem(i)"></button>
+  </div>
+</div>
+
