@@ -17,14 +17,14 @@ export class NavbarComponent {
     const nav = this.elementRef.nativeElement.querySelector('#nav');
 
     if (this.rotaAtual === "" && window.scrollY > 90) {
-      nav.style.background = '#fff';
+      nav.style.background = '#040708';
       return
     }
 
     if(this.rotaAtual){
-      nav.style.background = '#fff';
+      nav.style.background = '#040708';
       return
     }
-    nav.style.background = 'transparent';
+    nav.style.background = '#040708';
   }
 }

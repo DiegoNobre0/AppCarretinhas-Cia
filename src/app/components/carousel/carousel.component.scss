@@ -4,7 +4,9 @@
   border-radius: 10px;
   background-size: cover;
   background-position: center;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-out;
+  padding: 0rem 9rem 0rem 9rem;
+  margin: 2rem 0rem 0rem -7rem;
   
 }
 
@@ -15,9 +17,9 @@
 }
 
 .carousel-img{
-  background-color: #151514;
+  background-color: #040708;
   width: 29rem;
-  height: 26rem;
+  height: 43rem;
   margin: 0 auto
 }
 
@@ -38,6 +40,6 @@
 }
 
 .botoes-controle button.ativo {
-  background: #ff0000;
+  background: #f2be31;
   cursor: default;
 }

@@ -3,8 +3,8 @@
 }
 
 .img-logo{
-    height: 4rem;
-    width: 9rem;
+    height: 7.3rem;
+    width: 16rem;
 }
 
 
@@ -33,7 +33,7 @@
 
 .mat-toolbar{
     transition: all 0.3s ease-out;
-    padding: 1.5rem;
+    padding: 3.5rem;
     display: flex;
     justify-content: center;
     position: fixed;
@@ -42,7 +42,7 @@
     margin-top: -1rem;
     @media (max-width: 990px){
         display: block;
-        background:#fff;
+        background:#040708;
     }
 }
 
@@ -56,7 +56,7 @@
       height: 25rem;
       left: 36%;
       top: 4%;
-      background-color: rgba(0, 0, 0, 0.1);
+      background-color: #040708;
       backdrop-filter: blur(3px);
 
       @media (max-width: 990px){

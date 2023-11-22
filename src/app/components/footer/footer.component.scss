@@ -1,16 +1,14 @@
-.div-logo{
-    width: 57%;
-}
+
 
 .img-logo{
-    height: 4rem;
-    width: 9rem;
+    height: 12rem;
+    width: 25rem;
 }
 
-.div-footer{
+.div-footer{    
     padding: 2rem 12rem 2rem 14rem;
     display: grid;
-    grid-template-columns: 35rem 14rem 3rem;
+    grid-template-columns: 33% 33% 33%;
     @media (max-width: 990px){
         display: none;
      }
@@ -23,4 +21,14 @@
 .spam-flex-justify{
     display: flex;
     justify-content: center;
+}
+
+.color-footer{
+    background:#040708;
+    color: #f2be31;
+}
+
+.hr-title{
+    border: 1px solid #f2be31;
+    margin-right: 1rem;
 }

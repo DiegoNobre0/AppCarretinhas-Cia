@@ -1,0 +1,113 @@
+.div-imagem-home{  
+    position: relative;    
+    // transform: perspective(94px) rotateX(5deg) rotateY(4deg);
+    height: 29rem;
+    width: 44rem;
+    // padding-top: 3rem;
+    // padding-left: 8rem;
+    // border-radius: 174px
+    clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+}
+
+.div-imagem-home-2{  
+    position: relative;
+    // transform: perspective(94px) rotateX(5deg) rotateY(4deg);
+    height: 50rem; 
+    width: 100%;
+    opacity: 0.6;
+    // padding-top: 3rem;
+    // padding-left: 8rem;
+    // border-radius: 174px
+  
+}
+
+.texto-superposto {
+    position: absolute;
+    top: 40%; /* Ajuste conforme necessário para posicionar verticalmente */
+    left: 50%; /* Ajuste conforme necessário para posicionar horizontalmente */
+    transform: translate(-50%, -50%); /* Centraliza o texto */
+    color: azure;
+    z-index: 8;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 600;
+    text-shadow: 8px 4px 6px rgba(20, 20, 10, 12.5);
+  }
+
+
+.div-carrossel{
+    background-color: #040708;
+    padding-top: 4rem;
+}
+
+.div-home{
+    background-color:#f2be31;
+    height: 29rem;
+    display: flex;
+}
+
+.div-home-1{
+    background-color:#040708;
+    height: 50rem;   
+    position: relative;
+}
+
+.div-icons{
+    padding-top: 1.4rem;
+    display: flex;
+    justify-content: space-around
+}
+
+.div-text{
+    text-align: center;
+}
+
+.div-img{
+    width: 6rem;
+    height: 6rem;
+}
+
+.style-title{
+    font-size: 35px;
+    color: #040708;
+    font-weight: 700;
+}
+
+.style-text-inf{
+    font-size: 19px;
+    color: #040708;
+    line-height: 22px;
+}
+
+
+.style-text-icon{
+    font-size: 19px;
+    color: #040708;
+    font-weight: 500;
+}
+
+hr {
+    border: 1px solid #040708; /* Define a cor e a espessura da linha */    
+}
+
+
+.button {    
+    position: absolute;
+    top: 49%;
+    left: 43%;
+    padding: 1rem 2rem 1rem 2rem;
+    font-weight: bold;
+    text-align: center;
+    z-index: 8;
+    border-radius: 5px;
+    background-color: #f2be31; /* Cor amarela vibrante */
+    color: #ffffff; /* Cor do texto (branco) */
+    border: 2px solid #f2be31; /* Cor da borda (igual à cor de fundo para criar um contorno) */
+    transition: background-color 0.3s, color 0.3s; /* Adiciona uma transição suave para a mudança de cor */
+  }
+
+  .button:hover {
+    background-color: #FFC107; /* Cor amarela mais escura no hover para dar feedback visual */
+    border-color: #FFC107; /* Cor da borda no hover */
+    color: #ffffff; /* Cor do texto no hover (branco) */
+  }
